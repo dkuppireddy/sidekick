@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Project_Login</string>
+    <string name="invalid_name">Please Enter Password to Continue</string>
+    <string name="invalidPassword">Please Enter Password to Continue</string>
+    <string name="invalid_email">Please Enter Email Address to Continue</string>
+    <string name="invalid_username">Please enter Username</string>
+    <string name="invalidConfirmPassword">Password does not match. Enter again.</string>
+</resources>
