@@ -1,15 +1,15 @@
 package com.example.project_login;
 
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.TextView;
+
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
-
-import android.content.Intent;
-import android.os.Bundle;
-import android.view.View;
-import android.widget.TextView;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
@@ -33,7 +33,7 @@ public class PostJobActivity extends AppCompatActivity {
         getSupportActionBar().setHomeButtonEnabled(true);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
-        fabBtn=findViewById(R.id.fab_add);
+        fabBtn=findViewById(R.id.PJ_fab_add);
 
         recyclerView=findViewById(R.id.recycler_job_post_id);
         LinearLayoutManager layoutManager= new LinearLayoutManager(this);

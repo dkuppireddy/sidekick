@@ -15,12 +15,12 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Job Title"
+            android:text="Name:"
             android:textAppearance="?android:textAppearanceLarge"
             android:padding="10dp"
             android:maxLines="1"
             android:textColor="@android:color/black"
-            android:id="@+id/job_title"
+            android:id="@+id/RR_person_name"
             />
 
         <TextView
@@ -30,39 +30,82 @@
             android:textAppearance="?android:textAppearanceSmall"
             android:padding="10dp"
             android:textColor="@color/blue"
-            android:id="@+id/job_date"
+            android:id="@+id/RR_date"
             />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Description"
+            android:text="From"
             android:textAppearance="?android:textAppearanceMedium"
-            android:padding="5dp"
+            android:padding="10dp"
             android:textColor="@color/black"
-            android:id="@+id/job_description"
+            android:id="@+id/RR_from"
+            android:maxLines="1"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="To"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:id="@+id/RR_to"
+            android:maxLines="1"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ride on (date)"
+            android:padding="10dp"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:maxLines="1"
+            android:textColor="@color/black"
+            android:id="@+id/RR_date_on"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Seats Needed"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:id="@+id/RR_seats"
+            android:maxLines="1"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Luggage Information"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:id="@+id/RR_luggage_info"
             android:maxLines="3"
             />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Skills"
-            android:padding="10dp"
+            android:text="Contact"
             android:textAppearance="?android:textAppearanceMedium"
-            android:maxLines="1"
+            android:padding="10dp"
             android:textColor="@color/black"
-            android:id="@+id/job_skills"
+            android:id="@+id/RR_contact"
+            android:maxLines="1"
             />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Salary:"
+            android:text="Budget"
             android:padding="10dp"
             android:textAppearance="?android:textAppearanceMedium"
             android:textColor="@color/black"
-            android:id="@+id/job_salary"
+            android:id="@+id/RR_Budget"
             />
     </LinearLayout>
 

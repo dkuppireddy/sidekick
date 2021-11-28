@@ -36,7 +36,7 @@
             android:layout_marginRight="25dp"
             app:fabSize="normal"
             android:src="@drawable/add"
-            android:id="@+id/fab_add"
+            android:id="@+id/PJ_fab_add"
             android:backgroundTint="@color/toolbar_color"
             android:layout_height="wrap_content"/>
 

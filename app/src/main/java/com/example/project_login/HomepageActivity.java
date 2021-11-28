@@ -3,18 +3,31 @@ package com.example.project_login;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
-import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
+
 
 public class HomepageActivity extends AppCompatActivity {
+    private Toolbar toolbar;
     Handler h = new Handler();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_homepage);
+
+         toolbar = findViewById(R.id.homepage);
+        setSupportActionBar(toolbar);
+        getSupportActionBar().setTitle("Sidekick");
+
+        //getSupportActionBar().setHomeButtonEnabled(true);
+        //getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         TextView btn_accomodation = findViewById(R.id.btn_accomodation);
         btn_accomodation.setOnClickListener(new View.OnClickListener() {
@@ -34,5 +47,34 @@ public class HomepageActivity extends AppCompatActivity {
             }
         });
 
+       TextView btn_CityShare=findViewById(R.id.btn_city_share);
+       btn_CityShare.setOnClickListener(new View.OnClickListener() {
+           @Override
+           public void onClick(View view) {
+               startActivity(new Intent(getApplicationContext(),RideShareActivity.class));
+           }
+       });
+
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.mainmenu,menu);
+        return super.onCreateOptionsMenu(menu);
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+        switch (item.getItemId()){
+            case R.id.logout:
+                signout();
+                startActivity(new Intent(getApplicationContext(),MainActivity.class));
+        }
+
+        return super.onOptionsItemSelected(item);
+    }
+
+    private void signout() {
+        Toast.makeText(this,"Signed out Successfully",Toast.LENGTH_SHORT).show();
     }
 }

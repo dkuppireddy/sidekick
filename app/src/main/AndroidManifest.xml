@@ -17,9 +17,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Project_Login">
         <activity
+            android:name=".AllridesActivity"
+            android:exported="false"
+            android:parentActivityName=".RideShareActivity" />
+        <activity
             android:name=".JobDetailsActivity"
-            android:parentActivityName=".AllJobActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:parentActivityName=".AllJobActivity" />
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
              (See the file "res/values/google_maps_api.xml").
@@ -30,16 +34,16 @@
         -->
         <activity
             android:name=".InsertJobPostActivity"
-            android:parentActivityName=".PostJobActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:parentActivityName=".PostJobActivity" />
         <activity
             android:name=".PostJobActivity"
-            android:parentActivityName=".PartTimeActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:parentActivityName=".PartTimeActivity" />
         <activity
             android:name=".AllJobActivity"
-            android:parentActivityName=".PartTimeActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:parentActivityName=".PartTimeActivity" />
         <activity
             android:name=".SignupActivity"
             android:exported="false" />
@@ -72,8 +76,32 @@
             android:exported="false" />
         <activity
             android:name=".PartTimeActivity"
-            android:parentActivityName=".HomepageActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:parentActivityName=".HomepageActivity" />
+        <activity
+            android:name=".RideShareActivity"
+            android:exported="false"
+            android:parentActivityName=".HomepageActivity" />
+        <activity
+            android:name=".Requestride"
+            android:exported="false"
+            android:parentActivityName=".RideShareActivity" />
+        <activity
+            android:name=".Insertride"
+            android:exported="false"
+            android:parentActivityName=".Requestride" />
+        <activity
+            android:name=".RideDetailsActivity"
+            android:exported="false"
+            android:parentActivityName=".AllridesActivity" />
+        <activity
+            android:name=".Postride"
+            android:exported="false"
+            android:parentActivityName=".RideShareActivity"/>
+        <activity
+            android:name=".PostRide_Insert"
+            android:exported="false"
+            android:parentActivityName=".Postride"/>
     </application>
 
 </manifest>

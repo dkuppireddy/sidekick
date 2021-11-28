@@ -8,12 +8,20 @@ public class Data {
     String salary;
     String id;
     String date;
+    String name;
+    String from;
+    String to;
+    String date_on;
+    String seats;
+    String luggage_info;
+    String contact;
+    String budget;
 
     public Data(){
 
     }
 
-    public Data(String title, String description, String skills, String salary, String id, String date) {
+    public Data(String title, String description, String skills, String salary, String id, String date, String name, String from, String to, String date_on, String seats, String luggage_info, String contact, String budget ) {
         this.title = title;
         this.description = description;
         this.skills = skills;
@@ -68,5 +76,70 @@ public class Data {
 
     public void setDate(String date) {
         this.date = date;
+    }
+
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getFrom() {
+        return from;
+    }
+
+    public void setFrom(String from) {
+        this.from = from;
+    }
+
+    public String getTo() {
+        return to;
+    }
+
+    public void setTo(String to) {
+        this.to = to;
+    }
+
+    public String getDate_on() {
+        return date_on;
+    }
+
+    public void setDate_on(String date_on) {
+        this.date_on = date_on;
+    }
+
+    public String getSeats() {
+        return seats;
+    }
+
+    public void setSeats(String seats) {
+        this.seats = seats;
+    }
+
+    public String getLuggage_info() {
+        return luggage_info;
+    }
+
+    public void setLuggage_info(String luggage_info) {
+        this.luggage_info = luggage_info;
+    }
+
+    public String getContact() {
+        return contact;
+    }
+
+    public void setContact(String contact) {
+        this.contact = contact;
+    }
+
+    public String getBudget() {
+        return budget;
+    }
+
+    public void setBudget(String budget) {
+        this.budget = budget;
     }
 }
