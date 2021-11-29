@@ -21,6 +21,7 @@
         android:id="@+id/button3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@drawable/input_bg"
         android:layout_margin="10dp"
         android:layout_below="@id/button3"
         android:text="Where to go?"
@@ -30,6 +31,7 @@
         android:id="@+id/button4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@drawable/input_bg"
         android:layout_below="@id/button4"
         android:layout_margin="10dp"
         android:text="Required documents" />
