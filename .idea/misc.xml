@@ -33,6 +33,11 @@
         <entry key="app/src/main/res/layout/activity_rideshare.xml" value="0.1526268115942029" />
         <entry key="app/src/main/res/layout/activity_see_all_rides.xml" value="0.1403985507246377" />
         <entry key="app/src/main/res/layout/activity_signup.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_sim_sin1.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_sim_sin2.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_sim_sin3.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_sim_sin4.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_sim_sin5.xml" value="0.1" />
         <entry key="app/src/main/res/layout/alljobpost.xml" value="0.21965579710144928" />
         <entry key="app/src/main/res/layout/allrides.xml" value="0.1403985507246377" />
         <entry key="app/src/main/res/layout/job_post_item.xml" value="0.21965579710144928" />

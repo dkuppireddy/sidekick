@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.example.project_login">
     <!--
          The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
@@ -102,6 +103,27 @@
             android:name=".PostRide_Insert"
             android:exported="false"
             android:parentActivityName=".Postride"/>
+        <activity
+            android:name="com.example.project_login.SimSin5"
+            android:parentActivityName=".SimSin4"
+            android:exported="false" />
+        <activity
+            android:name="com.example.project_login.SimSin4"
+            android:parentActivityName=".SimSin3"
+            android:exported="false" />
+        <activity
+            android:name="com.example.project_login.SimSin3"
+            android:parentActivityName=".SimSin1"
+            android:exported="false" />
+        <activity
+            android:name="com.example.project_login.SimSin2"
+            android:parentActivityName=".SimSin1"
+            android:exported="false" />
+        <activity
+            android:name="com.example.project_login.SimSin1"
+            android:exported="false"
+            android:parentActivityName=".HomepageActivity"
+            tools:ignore="DuplicateActivity" />
     </application>
 
 </manifest>

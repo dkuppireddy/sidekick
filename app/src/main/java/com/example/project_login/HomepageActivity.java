@@ -55,6 +55,14 @@ public class HomepageActivity extends AppCompatActivity {
            }
        });
 
+       TextView btn_service_canada=findViewById(R.id.btn_service_canada);
+       btn_service_canada.setOnClickListener(new View.OnClickListener() {
+           @Override
+           public void onClick(View view) {
+               startActivity(new Intent(getApplicationContext(),SimSin1.class));
+           }
+       });
+
     }
 
     @Override
