@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Project_Login</string>
+    <string name="app_name">SideKick</string>
     <string name="invalid_name">Please Enter Password to Continue</string>
     <string name="invalidPassword">Please Enter Password to Continue</string>
     <string name="invalid_email">Please Enter Email Address to Continue</string>
