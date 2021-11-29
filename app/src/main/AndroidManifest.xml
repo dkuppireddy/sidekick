@@ -18,6 +18,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Project_Login">
         <activity
+            android:name=".FaqMainActivity"
+            android:parentActivityName=".HomepageActivity"
+            android:exported="false" />
+        <activity
             android:name=".AllridesActivity"
             android:exported="false"
             android:parentActivityName=".RideShareActivity" />
@@ -98,29 +102,29 @@
         <activity
             android:name=".Postride"
             android:exported="false"
-            android:parentActivityName=".RideShareActivity"/>
+            android:parentActivityName=".RideShareActivity" />
         <activity
             android:name=".PostRide_Insert"
             android:exported="false"
-            android:parentActivityName=".Postride"/>
+            android:parentActivityName=".Postride" />
         <activity
-            android:name="com.example.project_login.SimSin5"
-            android:parentActivityName=".SimSin4"
-            android:exported="false" />
+            android:name=".SimSin5"
+            android:exported="false"
+            android:parentActivityName=".SimSin4" />
         <activity
-            android:name="com.example.project_login.SimSin4"
-            android:parentActivityName=".SimSin3"
-            android:exported="false" />
+            android:name=".SimSin4"
+            android:exported="false"
+            android:parentActivityName=".SimSin3" />
         <activity
-            android:name="com.example.project_login.SimSin3"
-            android:parentActivityName=".SimSin1"
-            android:exported="false" />
+            android:name=".SimSin3"
+            android:exported="false"
+            android:parentActivityName=".SimSin1" />
         <activity
-            android:name="com.example.project_login.SimSin2"
-            android:parentActivityName=".SimSin1"
-            android:exported="false" />
+            android:name=".SimSin2"
+            android:exported="false"
+            android:parentActivityName=".SimSin1" />
         <activity
-            android:name="com.example.project_login.SimSin1"
+            android:name=".SimSin1"
             android:exported="false"
             android:parentActivityName=".HomepageActivity"
             tools:ignore="DuplicateActivity" />

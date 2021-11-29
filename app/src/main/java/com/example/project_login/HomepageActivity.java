@@ -63,6 +63,14 @@ public class HomepageActivity extends AppCompatActivity {
            }
        });
 
+       TextView btn_communtiy_centre=findViewById(R.id.btn_community_center);
+       btn_communtiy_centre.setOnClickListener(new View.OnClickListener() {
+           @Override
+           public void onClick(View view) {
+               startActivity(new Intent(getApplicationContext(),FaqMainActivity.class));
+           }
+       });
+
     }
 
     @Override

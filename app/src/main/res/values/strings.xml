@@ -16,13 +16,13 @@
     </ol>
 
         </string>
-<string name="para2"><ol>
+    <string name="para2"><ol>
             <li>a digital copy of an original valid primary identity document (you must provide both sides of the document if there is identity information on each side)</li>\n
         <li>a digital copy of an original valid secondary document </li>\n
         <li>a digital copy of a proof of address</li>\n
         <li>a digital copy of an original valid supporting document (only applicable if the name on any document provided is different from the name on the online SIN application)</li>
     </ol></string>
-<string name="para3">
+    <string name="para3">
         <ol>
             <li>an original valid primary identity document</li>\n
             <li>a completed and signed SIN application form. If you are unable to print the application form, you can order one by phone at:\n
@@ -31,9 +31,9 @@ if outside Canada, at 1-506-548-7961 (long distance charges will apply)</li>\n
             <li>an original valid supporting document (only applicable if the name on your primary identity document is different from the name on the SIN application)</li>
         </ol>
     </string>
-<string name="para4"><b>400 City Hall Square East, Suite 103\n
+    <string name="para4"><b>400 City Hall Square East, Suite 103\n
         Windsor, Ontario</b></string>
-<string name="para5">
+    <string name="para5">
         Head to a Superstore (Canadian supermarket chain) or affiliate.You’ll likely need to activate the SIM card yourself, which takes about 5-10 min over the phone. Activating online only works with phones they sell to you.\n\n
 
         <b>Required documents:</b>\n
@@ -45,7 +45,7 @@ if outside Canada, at 1-506-548-7961 (long distance charges will apply)</li>\n
          you will require an unlocked phone or have to buy a phone from the provider. If your phone is currently locked, you may also be able to get it unlocked in a general mobile store if you don’t mind losing your warranty.
 
     </string>
-<string name="para6">
+    <string name="para6">
         Canada has three main providers (Bell, Telus,  Rogers), and a host of smaller resellers, including a few owned by the “big three” themselves.\n\n
 
         There are also a couple of outliers such as Freedom Mobile that have worse coverage and use less common GSM frequencies. While the company’s 4G/LTE rollout makes it compatible with a wider range of international phones than in the past, most travelers will still be better off looking elsewhere.\n\n
@@ -55,13 +55,13 @@ if outside Canada, at 1-506-548-7961 (long distance charges will apply)</li>\n
 
     </string>
     <string name="para0">How to Buy a SIM Card in Canada</string>
-<string name="title_activity_sim_sin5">SimSin5</string>
-<!-- Strings used for fragments for navigation -->
-<string name="first_fragment_label">First Fragment</string>
-<string name="second_fragment_label">Second Fragment</string>
-<string name="next">Next</string>
-<string name="previous">Previous</string>
+    <string name="title_activity_sim_sin5">SimSin5</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
 
-<string name="hello_first_fragment">Hello first fragment</string>
-<string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
 </resources>
