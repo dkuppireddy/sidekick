@@ -42,6 +42,18 @@
         android:layout_below="@id/textView2"
         android:src="@drawable/bldg_3577"
         />
+        <Button
+            android:id="@+id/btn_locate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/blue"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:text="See on Map"
+            android:textAlignment="center" >
+
+        </Button>
+
     </LinearLayout>
 
 </LinearLayout>

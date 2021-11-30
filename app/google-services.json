@@ -1,20 +1,20 @@
 {
   "project_info": {
-    "project_number": "273949160629",
-    "project_id": "side-kick-58492",
-    "storage_bucket": "side-kick-58492.appspot.com"
+    "project_number": "27705049124",
+    "project_id": "sidekick-29a1d",
+    "storage_bucket": "sidekick-29a1d.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:273949160629:android:0211f85e0d00bd0da9bafc",
+        "mobilesdk_app_id": "1:27705049124:android:df50b98a4a0d2c779b58b1",
         "android_client_info": {
           "package_name": "com.example.project_login"
         }
       },
       "oauth_client": [
         {
-          "client_id": "273949160629-7mjj27h50fcul6i53922mjg994d7u621.apps.googleusercontent.com",
+          "client_id": "27705049124-q2lhvkp3ao1t44e9cmd54ghlosoudmdh.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.example.project_login",
@@ -22,20 +22,20 @@
           }
         },
         {
-          "client_id": "273949160629-pa3b43j9glmed0om49nm8i2fi025tbei.apps.googleusercontent.com",
+          "client_id": "27705049124-a17ro84q5ln9418c8msaaf3bnsq8ngtj.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAT4YLiYk4wRk9uaQrNLyYmrf3wVlUECEA"
+          "current_key": "AIzaSyDNl2enluPCSQ7Fyqy4MsUBz-rH9wgMk98"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "273949160629-pa3b43j9glmed0om49nm8i2fi025tbei.apps.googleusercontent.com",
+              "client_id": "27705049124-a17ro84q5ln9418c8msaaf3bnsq8ngtj.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

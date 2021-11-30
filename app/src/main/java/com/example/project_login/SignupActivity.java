@@ -20,12 +20,15 @@ public class SignupActivity extends AppCompatActivity {
     EditText inputUsername, inputEmailSignup, inputPassword, inputConfirmPassword;
     Button btnSignUp;
 
+
     AwesomeValidation awesomeValidation;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_signup);
+
+
 
         TextView btn = findViewById(R.id.alreadyHaveAccount);
         btn.setOnClickListener(view -> startActivity(new Intent(SignupActivity.this, LoginActivity.class)));
@@ -68,6 +71,8 @@ public class SignupActivity extends AppCompatActivity {
                 else{
                     Toast.makeText(getApplicationContext(), "Validation Failed...", Toast.LENGTH_SHORT).show();
                 }
+
+                startActivity(new Intent(getApplicationContext(),LoginActivity.class));
             }
         }));
 

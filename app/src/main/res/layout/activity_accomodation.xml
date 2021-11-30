@@ -6,13 +6,16 @@
     android:background="@color/blue"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
+    <include layout="@layout/toolbar"
+        android:id="@+id/accomodation_toolbar"/>
+
     <TextView
         android:id="@+id/text_accomodation"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="100dp"
         android:lineSpacingExtra="12dp"
         android:text="Accomodations"
         android:textAlignment="center"

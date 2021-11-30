@@ -51,6 +51,7 @@
             android:parentActivityName=".PartTimeActivity" />
         <activity
             android:name=".SignupActivity"
+            android:parentActivityName=".LoginActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
@@ -78,6 +79,7 @@
             android:exported="false" />
         <activity
             android:name=".AccomodationActivity"
+            android:parentActivityName=".HomepageActivity"
             android:exported="false" />
         <activity
             android:name=".PartTimeActivity"
@@ -128,6 +130,10 @@
             android:exported="false"
             android:parentActivityName=".HomepageActivity"
             tools:ignore="DuplicateActivity" />
+        <activity android:name=".NearbyActivity"
+            android:parentActivityName=".HomepageActivity"
+            android:exported="false"/>
     </application>
+
 
 </manifest>

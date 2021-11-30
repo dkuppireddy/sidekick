@@ -2,6 +2,7 @@ package com.example.project_login;
 
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.graphics.Color;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
@@ -11,13 +12,22 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 
 public class AccomodationActivity extends AppCompatActivity {
+    private Toolbar toolbar;
     Handler h = new Handler();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_accomodation);
+
+        toolbar=findViewById(R.id.accomodation_toolbar);
+        setSupportActionBar(toolbar);
+        getSupportActionBar().setTitle("Accomodation");
+
+        getSupportActionBar().setHomeButtonEnabled(true);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         LinearLayout it1 = findViewById(R.id.itemOne);
         it1.setOnClickListener(new View.OnClickListener() {
@@ -36,8 +46,9 @@ public class AccomodationActivity extends AppCompatActivity {
                                 intent.setData(Uri.parse("tel:9134290909"));
                                 startActivity(intent);
                             }
-                        });
+                });
                 alertDialog.show();
+                alertDialog.getButton(AlertDialog.BUTTON_NEUTRAL).setTextColor(Color.rgb(200,0,0));
             }
         });
         LinearLayout it2 = findViewById(R.id.itemTwo);
@@ -59,6 +70,7 @@ public class AccomodationActivity extends AppCompatActivity {
                             }
                         });
                 alertDialog.show();
+                alertDialog.getButton(AlertDialog.BUTTON_NEUTRAL).setTextColor(Color.rgb(200,0,0));
             }
         });
         LinearLayout it3 = findViewById(R.id.itemThree);
@@ -80,6 +92,7 @@ public class AccomodationActivity extends AppCompatActivity {
                             }
                         });
                 alertDialog.show();
+                alertDialog.getButton(AlertDialog.BUTTON_NEUTRAL).setTextColor(Color.rgb(200,0,0));
             }
         });
     }

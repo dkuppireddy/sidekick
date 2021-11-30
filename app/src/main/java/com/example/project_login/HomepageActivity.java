@@ -71,6 +71,14 @@ public class HomepageActivity extends AppCompatActivity {
            }
        });
 
+       TextView btn_Nearby=findViewById(R.id.btn_nearby);
+       btn_Nearby.setOnClickListener(new View.OnClickListener() {
+           @Override
+           public void onClick(View view) {
+               startActivity(new Intent(getApplicationContext(),NearbyActivity.class));
+           }
+       });
+
     }
 
     @Override

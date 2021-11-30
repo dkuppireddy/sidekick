@@ -5,18 +5,12 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.View;
-
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-
-
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
-
-
-
 
 
 public class InsertJobPostActivity extends AppCompatActivity {
@@ -31,8 +25,7 @@ public class InsertJobPostActivity extends AppCompatActivity {
     private EditText job_salary;
 
     private Button btn_post_job;
-
-
+    
 
 
     @Override
@@ -50,7 +43,6 @@ public class InsertJobPostActivity extends AppCompatActivity {
 
         getSupportActionBar().setHomeButtonEnabled(true);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-
 
 
 
@@ -90,6 +82,7 @@ public class InsertJobPostActivity extends AppCompatActivity {
                     return;
 
                 }
+
 
 
 

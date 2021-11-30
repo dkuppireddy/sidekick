@@ -21,7 +21,7 @@ public class Data {
 
     }
 
-    public Data(String title, String description, String skills, String salary, String id, String date, String name, String from, String to, String date_on, String seats, String luggage_info, String contact, String budget ) {
+    public Data(String title, String description, String skills, String salary, String id, String date) {
         this.title = title;
         this.description = description;
         this.skills = skills;
@@ -33,7 +33,6 @@ public class Data {
     public String getTitle() {
         return title;
     }
-
     public void setTitle(String title) {
         this.title = title;
     }
@@ -78,6 +77,9 @@ public class Data {
         this.date = date;
     }
 
+
+    public Data(String name, String from, String to, String date_on, String seats, String luggage_info, String contact, String budget){
+    }
 
     public String getName() {
         return name;
